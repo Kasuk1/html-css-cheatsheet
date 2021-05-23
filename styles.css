@@ -1,0 +1,122 @@
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+/*GENERAL STYLES*/
+main {
+    position: absolute;
+    left: 320px;
+    padding-left: 30px;
+    z-index: 0;
+}
+
+section {
+    margin-bottom: 155px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+#typography h2 {
+    color: darkcyan;
+}
+
+#colors h2 {
+    color: goldenrod;
+}
+
+/*HEADER SECTION*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    padding: 50px 20px;
+    z-index: 1;
+}
+
+header h1 {
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 100px 0 -10px 0;
+    color: black;
+    opacity: 0.8;
+    line-height: 1.1;
+}
+
+header p {
+    font-size: 20px;
+    color: grey;
+    opacity: 0.9;
+    line-height: 1.5;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+}
+
+header a {
+    text-decoration: none;
+    color: darkolivegreen;
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: capitalize;
+    line-height: 2;
+}
+
+header a:hover {
+    color: black;
+}
+
+/*TABLES*/
+
+table {
+    border: 2px solid darkslateblue;
+    width: 1000px;
+    height: 700px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+th,
+td {
+    border-bottom: 2px solid darkslateblue;
+    border-right: 2px solid darkslateblue;
+    font-size: 18px;
+    color: darkslateblue;
+}
+
+td {
+    font-weight: 500;
+    padding: 20px;
+}
+
+.table-definition {
+    width: 600px;
+}
+
+.table-name {
+    width: 300px;
+}
+
+.tag-style {
+    font-family: 'DM Mono', monospace;
+    color: deepskyblue;
+}
+
+/*FOOTER*/
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+footer p {
+    color: black;
+    opacity: 0.7;
+
+}

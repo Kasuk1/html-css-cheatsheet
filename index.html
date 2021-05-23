@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-CSS Cheatsheet</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500;700;800;900&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My personal HTML-CSS Cheatsheet</h1>
+        <p>You can guide yourself with this cheatsheet. Don't forget to read the definition or rule ;).</p>
+        <nav>
+            <ul>
+                <li><a href="#typography">typography</a></li>
+                <li><a href="#colors">colors</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="typography">
+            <h2>CSS: Typography</h2>
+            <p></p>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="table-tag">Tag/Attribute/Propertie</th>
+                        <th class="table-name">Name</th>
+                        <th class="table-definition">Definition/Rule</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tag-style">font-weight</td>
+                        <td>font-weight</td>
+                        <td>The CSS font-weight property declares how thick or thin should be the characters of a text. 
+                            Numerical values can be used with this property to set the thickness of the text. 
+                            The numeric scale range of this property is from 100 to 900 and accepts only multiples of 100. 
+                            The default value is normal while the default numerical value is 400. 
+                            Any value less than 400 will have text appear lighter than the default while any numerical value 
+                            greater than the 400 will appear bolder.</td>
+                    </tr>
+                    <tr>
+                        <td class="tag-style">font-style</td>
+                        <td>font-style</td>
+                        <td>The CSS font-style property determines the font style in which text will appear.
+                             It accepts italic as a value to set the font style to italic.</td>
+                    </tr>
+                    <tr>
+                        <td class="tag-style">@font-face</td>
+                        <td>@font-face</td>
+                        <td>The CSS @font-face rule allows external fonts or font files to be imported directly into stylesheets. 
+                            The location of the font file must be specified in the CSS rule so that the files can be loaded from that location. 
+                            This rule also allows locally hosted fonts to be added using a relative file path instead of a web URL.</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+    
+                </tfoot>
+            </table>
+        </section>
+
+        <section id="colors">
+            <h2>CSS: Colors</h2>
+            <p></p>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="table-tag">Tag/Attribute/Propertie</th>
+                        <th class="table-name">Name</th>
+                        <th class="table-definition">Definition/Rule</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tag-style">color</td>
+                        <td>Color Name Keywords</td>
+                        <td>Color name keywords can be used to set color property values for elements in CSS.</td>
+                    </tr>
+                    <tr>
+                        <td class="tag-style">rgba()/hsla()</td>
+                        <td>CSS Color Alpha Values</td>
+                        <td>Alpha values determine the transparency of colors in CSS. 
+                            Alpha values can be set for both RGB and HSL colors by using rgba() and hsla() and providing a fourth value representing alpha.<br><br>
+                            Alpha values can range between 0.0 (totally transparent) and 1.0 (totally opaque). 
+                            The CSS transparent value can also be used to create a fully transparent element.</td>
+                    </tr>
+                    <tr>
+                        <td class="tag-style">#ff0000</td>
+                        <td>CSS Hexadecimal Colors</td>
+                        <td>CSS colors can be represented in hexadecimal (or hex) notation. Hexadecimal digits can represent sixteen different values using 0-9 and a-f.<br><br>
+                            Hexadecimal colors are composed of 6 characters–each group of two represents a value between 0 and 255 for red, green, or blue. For example #ff0000 is all red, no green, and no blue. <br><br>
+                            When both characters of all three colors are repeated, hex colors can be abbreviated to only three values, so #0000ff could also be represented as #00f.</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+    
+                </tfoot>
+            </table>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>Made by Igor Chinchay Farroñay.</p>
+    </footer>
+    
+</body>
+</html>
